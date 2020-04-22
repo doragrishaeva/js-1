@@ -10,7 +10,7 @@ function countDown(number) {
       currentNumber--;
       
       //stop if currentNumber is zero
-      if (currentNumber === 0) {
+      if (currentNumber < 0) {
         clearInterval(timerId);
       }
       
