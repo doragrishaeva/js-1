@@ -1,7 +1,7 @@
 //Convert a hash into an array
 
 function convertHashInArray (object) {
-  result = []
+  var result = []
   
   //iterating through object and pushing key-value pairs in a result array
   for (var key in object) {
